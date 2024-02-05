@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+body{
+
+	background-color: cadetblue;
+}
+header{
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 100px;
+	margin-top: 20px
+}
+.date{
+	margin-top: ;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.date:hover{
+	background-color: rgb(122, 203, 206);
+	transition: all .3s;
+}
+
+.forms{
+	color: white;
+}
+
+.log-in{
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom:20px ;
+}
+.log-in:hover{
+	background-color: rgb(122, 203, 206);
+	transition: all .3s;
+}
+.log-in h2{
+	margin-bottom: 20px;
+}
+.log-in button{
+	margin-left: 20px;
+}
+main{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.choose-the-color{
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom:20px ;
+}
+.choose-the-color:hover{
+	background-color: rgb(122, 203, 206);
+	transition: all .3s;
+}
+.choose-the-color h2{
+	margin-bottom: 20px;
+}
+.date h2{
+	margin-bottom: 20px;
+}
+form input{
+	margin: 5px;
+}
